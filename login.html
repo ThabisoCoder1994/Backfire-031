@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    
+    <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto:400,500&display=swap"
+    rel="stylesheet" />
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+      
+      
+    <style>
+        body {
+            font-family: Calibri, Helvetica, sans-serif;
+            background-color: rgb(228, 228, 228);
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+        }
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: rgb(255, 6, 6);
+            color: white;
+            padding: 12px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+        button:hover {
+            opacity: 0.7;
+        }
+        .forgot-password {
+            text-align: center;
+            margin-top: 10px;
+        }
+        .forgot-password a {
+            color: #333;
+            text-decoration: none;
+        }
+        .forgot-password a:hover {
+            text-decoration: underline;
+        }
+        .header {
+            background-color: #fc0000;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .header a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        /* Additional styles for the new section */
+        .info_section {
+            background-color: #f4f4f4;
+            padding: 50px 0;
+        }
+        .info_section .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .info_section h3 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .info_section p {
+            margin-bottom: 20px;
+        }
+        .info_section .address_link-container {
+            margin-top: 20px;
+        }
+        .info_section .address_link-container a {
+            display: block;
+            margin-bottom: 10px;
+            color: #333;
+            text-decoration: none;
+        }
+        .info_section .address_link-container a img {
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+        .info_section .news_container {
+            margin-top: 30px;
+            text-align: center;
+        }
+        .info_section .news_container input[type="email"] {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .info_section .news_container button {
+            background-color: rgb(255, 6, 6);
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .info_section .social_container {
+            margin-top: 20px;
+        }
+        .info_section .social_container div {
+            display: inline-block;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1 class="title">BACKFIRE 031</h1>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="service.html">Services</a>
+            <a href="blog.html">Our Success Story</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+    </div>
+    
+
+<div class="container">
+    <h2>Login</h2>
+    <form action="/login" method="post">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit">Login</button>
+
+        <div class="forgot-password">
+            <a href="forgot-password.html">Forgot Password?</a>
+        </div>
+    </form>
+</div>
+
+
+
+</body>
+</html>
+
+        
